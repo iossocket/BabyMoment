@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F05B98E1E713EAA00D81D20 /* MomentFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05B98D1E713EAA00D81D20 /* MomentFactories.swift */; };
+		5F05B9911E7152C100D81D20 /* MomentRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05B98F1E7152C000D81D20 /* MomentRepositoryProtocol.swift */; };
+		5F05B9921E7152C100D81D20 /* MomentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05B9901E7152C100D81D20 /* MomentsViewModel.swift */; };
+		5F05B9971E71530B00D81D20 /* MomentsViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05B9961E71530B00D81D20 /* MomentsViewModelSpec.swift */; };
+		5F05B99A1E71539100D81D20 /* MomentRepositorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05B9991E71539100D81D20 /* MomentRepositorySpec.swift */; };
+		5F05B99C1E71543C00D81D20 /* MomentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05B99B1E71543C00D81D20 /* MomentRepository.swift */; };
 		5F0DD0F41D70050100E63FF2 /* DateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0DD0F31D70050100E63FF2 /* DateTools.framework */; };
 		5F0DD0F71D700A0900E63FF2 /* BirthdayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0DD0F61D700A0900E63FF2 /* BirthdayHelper.swift */; };
-		5F0DD0F91D700A9C00E63FF2 /* BirthdayHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0DD0F81D700A9C00E63FF2 /* BirthdayHelperTest.swift */; };
+		5F64D7821E693E9500308160 /* MomentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64D7811E693E9500308160 /* MomentViewModel.swift */; };
+		5F64D7851E693ECF00308160 /* MomentViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64D7841E693ECF00308160 /* MomentViewModelSpec.swift */; };
 		5F66452D1D78730500E25CB1 /* BabyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66452C1D78730500E25CB1 /* BabyProfile.swift */; };
 		5F6645301D78F32800E25CB1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F66452E1D78F2E700E25CB1 /* Realm.framework */; };
 		5F6645321D78F32800E25CB1 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6645311D78F32800E25CB1 /* RealmSwift.framework */; };
-		5FA472001D793715008CA63C /* BabyProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA471FF1D793715008CA63C /* BabyProfileTests.swift */; };
+		5F787CB21E6539370069982A /* Nimble.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 5F787CB01E6539370069982A /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F787CB31E6539370069982A /* Quick.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 5F787CB11E6539370069982A /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F787CB51E653F2D0069982A /* BirthdayHelperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F787CB41E653F2D0069982A /* BirthdayHelperSpec.swift */; };
+		5F787CB71E654A3E0069982A /* BabyProfileSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F787CB61E654A3E0069982A /* BabyProfileSpec.swift */; };
 		5FB288A91D7B107700DF386A /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB288A81D7B107700DF386A /* Moment.swift */; };
 		937F2F0D1D747FBE00232E52 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 937F2F0C1D747FBE00232E52 /* DateTools.bundle */; };
 		D0ADE0541D6E92200079AE3C /* XLPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ADE0531D6E92200079AE3C /* XLPhotoViewController.swift */; };
@@ -46,7 +56,6 @@
 		D0C90F3D1D6D489800D53A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C90F3B1D6D489800D53A57 /* Main.storyboard */; };
 		D0C90F3F1D6D489800D53A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C90F3E1D6D489800D53A57 /* Assets.xcassets */; };
 		D0C90F421D6D489800D53A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C90F401D6D489800D53A57 /* LaunchScreen.storyboard */; };
-		D0C90F4D1D6D489900D53A57 /* BabyMomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90F4C1D6D489900D53A57 /* BabyMomentTests.swift */; };
 		D0C90F5D1D6D722400D53A57 /* SingleMomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90F5C1D6D722400D53A57 /* SingleMomentCell.swift */; };
 		D0C90F601D6D778700D53A57 /* XLPhotoManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C90F5F1D6D778700D53A57 /* XLPhotoManager.storyboard */; };
 		D0C90F641D6D7D5E00D53A57 /* XLAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C90F631D6D7D5E00D53A57 /* XLAlbumCell.swift */; };
@@ -64,14 +73,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5F787CAF1E651F8C0069982A /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5F787CB21E6539370069982A /* Nimble.framework in Copy Files */,
+				5F787CB31E6539370069982A /* Quick.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5F05B98D1E713EAA00D81D20 /* MomentFactories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentFactories.swift; sourceTree = "<group>"; };
+		5F05B98F1E7152C000D81D20 /* MomentRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5F05B9901E7152C100D81D20 /* MomentsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsViewModel.swift; sourceTree = "<group>"; };
+		5F05B9961E71530B00D81D20 /* MomentsViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsViewModelSpec.swift; sourceTree = "<group>"; };
+		5F05B9991E71539100D81D20 /* MomentRepositorySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentRepositorySpec.swift; sourceTree = "<group>"; };
+		5F05B99B1E71543C00D81D20 /* MomentRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentRepository.swift; sourceTree = "<group>"; };
 		5F0DD0F31D70050100E63FF2 /* DateTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DateTools.framework; path = Carthage/Build/iOS/DateTools.framework; sourceTree = "<group>"; };
 		5F0DD0F61D700A0900E63FF2 /* BirthdayHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayHelper.swift; sourceTree = "<group>"; };
-		5F0DD0F81D700A9C00E63FF2 /* BirthdayHelperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayHelperTest.swift; sourceTree = "<group>"; };
+		5F64D7811E693E9500308160 /* MomentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentViewModel.swift; sourceTree = "<group>"; };
+		5F64D7841E693ECF00308160 /* MomentViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentViewModelSpec.swift; sourceTree = "<group>"; };
 		5F66452C1D78730500E25CB1 /* BabyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyProfile.swift; sourceTree = "<group>"; };
 		5F66452E1D78F2E700E25CB1 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		5F6645311D78F32800E25CB1 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		5FA471FF1D793715008CA63C /* BabyProfileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyProfileTests.swift; sourceTree = "<group>"; };
+		5F787CB01E6539370069982A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		5F787CB11E6539370069982A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		5F787CB41E653F2D0069982A /* BirthdayHelperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayHelperSpec.swift; sourceTree = "<group>"; };
+		5F787CB61E654A3E0069982A /* BabyProfileSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyProfileSpec.swift; sourceTree = "<group>"; };
 		5FB288A81D7B107700DF386A /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
 		937F2F0C1D747FBE00232E52 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = Carthage/Checkouts/DateTools/DateTools/DateTools.bundle; sourceTree = "<group>"; };
 		D0ADE0531D6E92200079AE3C /* XLPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLPhotoViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +142,6 @@
 		D0C90F411D6D489800D53A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C90F431D6D489800D53A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C90F481D6D489900D53A57 /* BabyMomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyMomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C90F4C1D6D489900D53A57 /* BabyMomentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyMomentTests.swift; sourceTree = "<group>"; };
 		D0C90F4E1D6D489900D53A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0C90F5C1D6D722400D53A57 /* SingleMomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleMomentCell.swift; sourceTree = "<group>"; };
 		D0C90F5F1D6D778700D53A57 /* XLPhotoManager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XLPhotoManager.storyboard; sourceTree = "<group>"; };
@@ -139,6 +172,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F05B98C1E713E9A00D81D20 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				5F05B98D1E713EAA00D81D20 /* MomentFactories.swift */,
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		5F05B9941E7152D500D81D20 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5F05B9951E7152F300D81D20 /* Protocol */,
+				5F05B99B1E71543C00D81D20 /* MomentRepository.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		5F05B9951E7152F300D81D20 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5F05B98F1E7152C000D81D20 /* MomentRepositoryProtocol.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		5F05B9981E71537500D81D20 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5F05B9991E71539100D81D20 /* MomentRepositorySpec.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
 		5F0DD0F51D7009A200E63FF2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,10 +213,28 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		5F64D7801E693E5A00308160 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F64D7811E693E9500308160 /* MomentViewModel.swift */,
+				5F05B9901E7152C100D81D20 /* MomentsViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F64D7831E693EBE00308160 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F05B9961E71530B00D81D20 /* MomentsViewModelSpec.swift */,
+				5F64D7841E693ECF00308160 /* MomentViewModelSpec.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		5FA471FE1D7936FB008CA63C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5FA471FF1D793715008CA63C /* BabyProfileTests.swift */,
+				5F787CB61E654A3E0069982A /* BabyProfileSpec.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -251,6 +335,8 @@
 		D0C90F2B1D6D489800D53A57 = {
 			isa = PBXGroup;
 			children = (
+				5F787CB01E6539370069982A /* Nimble.framework */,
+				5F787CB11E6539370069982A /* Quick.framework */,
 				937F2F0C1D747FBE00232E52 /* DateTools.bundle */,
 				D0ADE0641D6EDF100079AE3C /* Frameworks */,
 				D0C90F361D6D489800D53A57 /* BabyMoment */,
@@ -271,6 +357,8 @@
 		D0C90F361D6D489800D53A57 /* BabyMoment */ = {
 			isa = PBXGroup;
 			children = (
+				5F05B9941E7152D500D81D20 /* Repositories */,
+				5F64D7801E693E5A00308160 /* ViewModel */,
 				5F0DD0F51D7009A200E63FF2 /* Helpers */,
 				D0ADE0651D6EE9180079AE3C /* Vender */,
 				D0ADE05B1D6ED5F80079AE3C /* Model */,
@@ -288,10 +376,12 @@
 		D0C90F4B1D6D489900D53A57 /* BabyMomentTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F05B9981E71537500D81D20 /* Repositories */,
+				5F05B98C1E713E9A00D81D20 /* Factories */,
+				5F64D7831E693EBE00308160 /* ViewModel */,
 				5FA471FE1D7936FB008CA63C /* Model */,
-				D0C90F4C1D6D489900D53A57 /* BabyMomentTests.swift */,
-				5F0DD0F81D700A9C00E63FF2 /* BirthdayHelperTest.swift */,
 				D0C90F4E1D6D489900D53A57 /* Info.plist */,
+				5F787CB41E653F2D0069982A /* BirthdayHelperSpec.swift */,
 			);
 			path = BabyMomentTests;
 			sourceTree = "<group>";
@@ -391,6 +481,7 @@
 				D0C90F311D6D489800D53A57 /* Frameworks */,
 				D0C90F321D6D489800D53A57 /* Resources */,
 				D0ADE0631D6EDEDF0079AE3C /* ShellScript */,
+				5F446C701E5BFB2700984F85 /* Integrate Reveal server */,
 			);
 			buildRules = (
 			);
@@ -408,6 +499,7 @@
 				D0C90F441D6D489900D53A57 /* Sources */,
 				D0C90F451D6D489900D53A57 /* Frameworks */,
 				D0C90F461D6D489900D53A57 /* Resources */,
+				5F787CAF1E651F8C0069982A /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -426,15 +518,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = kotlinchina;
 				TargetAttributes = {
 					D0C90F331D6D489800D53A57 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = C85KQG8PYQ;
+						LastSwiftMigration = 0800;
 					};
 					D0C90F471D6D489900D53A57 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = D0C90F331D6D489800D53A57;
 					};
 				};
@@ -483,6 +577,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5F446C701E5BFB2700984F85 /* Integrate Reveal server */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Integrate Reveal server";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n\"${BUILD_SCRIPT_PATH}\"\nelse\necho \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi";
+		};
 		D0ADE0631D6EDEDF0079AE3C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,13 +627,17 @@
 				D0ADE0581D6E96F00079AE3C /* XLPhotoFooterView.swift in Sources */,
 				D0C90F661D6D7D9C00D53A57 /* XLAlbumViewController.swift in Sources */,
 				D0ADE0B81D6F24C50079AE3C /* ChooseGenderViewController.swift in Sources */,
+				5F64D7821E693E9500308160 /* MomentViewModel.swift in Sources */,
 				D0ADE0B41D6EEC7F0079AE3C /* IQToolbar.swift in Sources */,
 				D0ADE0A61D6EEC7F0079AE3C /* IQNSArray+Sort.swift in Sources */,
 				D0ADE0AC1D6EEC7F0079AE3C /* IQKeyboardManagerConstants.swift in Sources */,
+				5F05B9911E7152C100D81D20 /* MomentRepositoryProtocol.swift in Sources */,
 				D0C90F5D1D6D722400D53A57 /* SingleMomentCell.swift in Sources */,
+				5F05B9921E7152C100D81D20 /* MomentsViewModel.swift in Sources */,
 				D0C90F691D6D823600D53A57 /* XLAlbumItem.swift in Sources */,
 				D0ADE0AD1D6EEC7F0079AE3C /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 				D0ADE0A71D6EEC7F0079AE3C /* IQUIScrollView+Additions.swift in Sources */,
+				5F05B99C1E71543C00D81D20 /* MomentRepository.swift in Sources */,
 				D0ADE0AB1D6EEC7F0079AE3C /* IQUIWindow+Hierarchy.swift in Sources */,
 				D0ADE0AE1D6EEC7F0079AE3C /* IQKeyboardManager.swift in Sources */,
 				D0ADE0A81D6EEC7F0079AE3C /* IQUITextFieldView+Additions.swift in Sources */,
@@ -545,9 +657,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0DD0F91D700A9C00E63FF2 /* BirthdayHelperTest.swift in Sources */,
-				5FA472001D793715008CA63C /* BabyProfileTests.swift in Sources */,
-				D0C90F4D1D6D489900D53A57 /* BabyMomentTests.swift in Sources */,
+				5F787CB71E654A3E0069982A /* BabyProfileSpec.swift in Sources */,
+				5F05B9971E71530B00D81D20 /* MomentsViewModelSpec.swift in Sources */,
+				5F64D7851E693ECF00308160 /* MomentViewModelSpec.swift in Sources */,
+				5F05B98E1E713EAA00D81D20 /* MomentFactories.swift in Sources */,
+				5F05B99A1E71539100D81D20 /* MomentRepositorySpec.swift in Sources */,
+				5F787CB51E653F2D0069982A /* BirthdayHelperSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,8 +710,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -640,8 +757,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -660,6 +779,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -681,6 +801,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tw.dev.BabyMoment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -701,6 +822,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tw.dev.BabyMoment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -716,6 +838,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotlinchina.BabyMomentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyMoment.app/BabyMoment";
 			};
 			name = Debug;
@@ -732,6 +855,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotlinchina.BabyMomentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyMoment.app/BabyMoment";
 			};
 			name = Release;
